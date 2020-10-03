@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="shortcut icon" href="images/miicono.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body class="dark">
+    <div class="wrapper">
+        <div class="container1">
+            <header>
+                <section>
+                    <!--Header-->
+                    <div class="header-headline">
+                        <div class="header-headline-1">Social Media Dashboard</div>
+                        <div class="header-headline-2">Total Seguidores: 32,408</div>
+                    </div>
+
+                    <!--Dark Mode-->
+                    <div class="header-toggler">
+                        <div style="font-weight: 700;">Dark Mode</div>
+
+
+                        <div class="toggler" id="toggler">
+                            <div id="toggler-circle" class="toggler-circle"></div>
+                        </div>
+                    </div>
+                </section>
+
+
+                <!--Social Media Card Section-->
+                <section>
+                    <div class="col-md-3 col-sm-6 padding-left resp-padding">
+                        <div class="header-card facebook">
+                            <div class="header-card-1">
+                                <span> <img src="images/facebook.png" alt=""></span>
+                                <span class="header-card-1-name">@web_dev</span>
+                            </div>
+                            <div class="header-card-2">1987</div>
+                            <div class="header-card-3">Seguidores</div>
+                            <div class="header-card-4">
+                                <span>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                                        viewBox="0 0 172 172" style=" fill:#000000;">
+                                        <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                            stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                            stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+                                            font-weight="none" font-size="none" text-anchor="none"
+                                            style="mix-blend-mode: normal">
+                                            <path d="M0,172v-172h172v172z" fill="none"></path>
+                                            <g fill="#2ecc71">
+                                                <path
+                                                    d="M86,14.33333c-39.517,0 -71.66667,32.14967 -71.66667,71.66667c0,39.517 32.14967,71.66667 71.66667,71.66667c39.517,0 71.66667,-32.14967 71.66667,-71.66667c0,-39.517 -32.14967,-71.66667 -71.66667,-71.66667zM104.533,86l-11.36633,-11.36633v40.033c0,3.956 -3.21067,7.16667 -7.16667,7.16667v0c-3.956,0 -7.16667,-3.21067 -7.16667,-7.16667v-40.033l-11.36633,11.36633c-2.795,2.795 -7.33867,2.795 -10.13367,0v0c-2.795,-2.795 -2.795,-7.33867 0,-10.13367l23.59983,-23.59983c2.795,-2.795 7.33867,-2.795 10.13367,0l23.59983,23.59983c2.795,2.795 2.795,7.33867 0,10.13367v0c-2.795,2.795 -7.33867,2.795 -10.13367,0z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg>
+
+                                    <span style="
+                                color: hsl(163,72%,41%); 
+                                font-size: 12px; 
+                                font-weight: 700;">
+                                        Hoy 12</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 col-sm-6 resp-padding">
+                        <div class="header-card twitter">
+                            <div class="header-card-1">
+                                <span> <img src="images/twitter.png" alt=""></span>
+                                <span class="header-card-1-name">@web_dev</span>
+                            </div>
+                            <div class="header-card-2">1044</div>
+                            <div class="header-card-3">Seguidores</div>
+                            <div class="header-card-4">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#2ecc71">
+                                            <path
+                                                d="M86,14.33333c-39.517,0 -71.66667,32.14967 -71.66667,71.66667c0,39.517 32.14967,71.66667 71.66667,71.66667c39.517,0 71.66667,-32.14967 71.66667,-71.66667c0,-39.517 -32.14967,-71.66667 -71.66667,-71.66667zM104.533,86l-11.36633,-11.36633v40.033c0,3.956 -3.21067,7.16667 -7.16667,7.16667v0c-3.956,0 -7.16667,-3.21067 -7.16667,-7.16667v-40.033l-11.36633,11.36633c-2.795,2.795 -7.33867,2.795 -10.13367,0v0c-2.795,-2.795 -2.795,-7.33867 0,-10.13367l23.59983,-23.59983c2.795,-2.795 7.33867,-2.795 10.13367,0l23.59983,23.59983c2.795,2.795 2.795,7.33867 0,10.13367v0c-2.795,2.795 -7.33867,2.795 -10.13367,0z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+
+                                <span style="
+                                color: hsl(163,72%,41%); 
+                                font-size: 12px; 
+                                font-weight: 700;">
+                                    Hoy 99</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 resp-padding">
+                        <div class="header-card instagram">
+                            <div class="header-card-1">
+                                <span> <img src="images/instagram.png" alt=""></span>
+                                <span class="header-card-1-name">@web_dev</span>
+                            </div>
+                            <div class="header-card-2">32K</div>
+                            <div class="header-card-3">Seguidores</div>
+                            <div class="header-card-4">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#2ecc71">
+                                            <path
+                                                d="M86,14.33333c-39.517,0 -71.66667,32.14967 -71.66667,71.66667c0,39.517 32.14967,71.66667 71.66667,71.66667c39.517,0 71.66667,-32.14967 71.66667,-71.66667c0,-39.517 -32.14967,-71.66667 -71.66667,-71.66667zM104.533,86l-11.36633,-11.36633v40.033c0,3.956 -3.21067,7.16667 -7.16667,7.16667v0c-3.956,0 -7.16667,-3.21067 -7.16667,-7.16667v-40.033l-11.36633,11.36633c-2.795,2.795 -7.33867,2.795 -10.13367,0v0c-2.795,-2.795 -2.795,-7.33867 0,-10.13367l23.59983,-23.59983c2.795,-2.795 7.33867,-2.795 10.13367,0l23.59983,23.59983c2.795,2.795 2.795,7.33867 0,10.13367v0c-2.795,2.795 -7.33867,2.795 -10.13367,0z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+
+                                <span style="
+                                color:hsl(163,72%,41%); 
+                                font-size: 12px; 
+                                font-weight: 700;">
+                                    Hoy 376</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 padding-right resp-padding">
+                        <div class="header-card youtube">
+                            <div class="header-card-1">
+                                <span> <img src="images/youtube.png" alt=""></span>
+                                <span class="header-card-1-name">Kgonzales</span>
+                            </div>
+                            <div class="header-card-2">2110</div>
+                            <div class="header-card-3">Seguidores</div>
+                            <div class="header-card-4">
+
+                                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#e74c3c">
+                                            <path
+                                                d="M86,0c-47.50716,0 -86,38.49284 -86,86c0,47.50716 38.49284,86 86,86c47.50716,0 86,-38.49284 86,-86c0,-47.50716 -38.49284,-86 -86,-86zM86,132.58333l-39.41667,-46.58333h25.08333v-43h28.66667v43h25.08333z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+
+                                <span style="
+                                color: hsl(356,69%,56%); 
+                                font-size: 12px; 
+                                font-weight: 700;">
+                                    Hoy 34</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </header>
+
+            <main>
+                <div class="col-md-12 padding-left">
+                    <div class="main-heading">Resumen de hoy</div>
+                </div>
+
+                <div class="row main-row-margin">
+
+                    <div class="col-md-3">
+                        <div class="main-card">
+                            <div class="main-card-top">
+                                <span>Vista de páginas</span>
+                                <span><img src="images/facebook.png" alt=""></span>
+                            </div>
+                            <div class="main-card-bottom">
+                                <span>87</span>
+
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="12" height="12"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#2ecc71">
+                                            <path
+                                                d="M86,14.33333c-39.517,0 -71.66667,32.14967 -71.66667,71.66667c0,39.517 32.14967,71.66667 71.66667,71.66667c39.517,0 71.66667,-32.14967 71.66667,-71.66667c0,-39.517 -32.14967,-71.66667 -71.66667,-71.66667zM104.533,86l-11.36633,-11.36633v40.033c0,3.956 -3.21067,7.16667 -7.16667,7.16667v0c-3.956,0 -7.16667,-3.21067 -7.16667,-7.16667v-40.033l-11.36633,11.36633c-2.795,2.795 -7.33867,2.795 -10.13367,0v0c-2.795,-2.795 -2.795,-7.33867 0,-10.13367l23.59983,-23.59983c2.795,-2.795 7.33867,-2.795 10.13367,0l23.59983,23.59983c2.795,2.795 2.795,7.33867 0,10.13367v0c-2.795,2.795 -7.33867,2.795 -10.13367,0z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>3%</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="main-card">
+                            <div class="main-card-top">
+                                <span>Likes</span>
+                                <span><img src="images/facebook.png" alt=""></span>
+                            </div>
+                            <div class="main-card-bottom1">
+                                <span> 52 </span>
+
+                                <span> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="12" height="12"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#e74c3c">
+                                            <path
+                                                d="M86,0c-47.50716,0 -86,38.49284 -86,86c0,47.50716 38.49284,86 86,86c47.50716,0 86,-38.49284 86,-86c0,-47.50716 -38.49284,-86 -86,-86zM86,132.58333l-39.41667,-46.58333h25.08333v-43h28.66667v43h25.08333z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>3%</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="main-card">
+                            <div class="main-card-top">
+                                <span>Likes</span>
+                                <span><img src="images/instagram.png" alt=""></span>
+                            </div>
+                            <div class="main-card-bottom">
+                                <span>5462</span>
+
+                                <span> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="12" height="12"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#2ecc71">
+                                            <path
+                                                d="M86,14.33333c-39.517,0 -71.66667,32.14967 -71.66667,71.66667c0,39.517 32.14967,71.66667 71.66667,71.66667c39.517,0 71.66667,-32.14967 71.66667,-71.66667c0,-39.517 -32.14967,-71.66667 -71.66667,-71.66667zM104.533,86l-11.36633,-11.36633v40.033c0,3.956 -3.21067,7.16667 -7.16667,7.16667v0c-3.956,0 -7.16667,-3.21067 -7.16667,-7.16667v-40.033l-11.36633,11.36633c-2.795,2.795 -7.33867,2.795 -10.13367,0v0c-2.795,-2.795 -2.795,-7.33867 0,-10.13367l23.59983,-23.59983c2.795,-2.795 7.33867,-2.795 10.13367,0l23.59983,23.59983c2.795,2.795 2.795,7.33867 0,10.13367v0c-2.795,2.795 -7.33867,2.795 -10.13367,0z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>2257%</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="main-card">
+                            <div class="main-card-top">
+                                <span>Likes</span>
+                                <span><img src="images/instagram.png" alt=""></span>
+                            </div>
+                            <div class="main-card-bottom1">
+                                <span>87</span>
+
+                                <span> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="12" height="12"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#e74c3c">
+                                            <path
+                                                d="M86,0c-47.50716,0 -86,38.49284 -86,86c0,47.50716 38.49284,86 86,86c47.50716,0 86,-38.49284 86,-86c0,-47.50716 -38.49284,-86 -86,-86zM86,132.58333l-39.41667,-46.58333h25.08333v-43h28.66667v43h25.08333z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>3%</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <div class="main-card">
+                            <div class="main-card-top">
+                                <span>Retweets</span>
+                                <span><img src="images/twitter.png" alt=""></span>
+                            </div>
+                            <div class="main-card-bottom">
+                                <span>117</span>
+
+                                <span> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="12" height="12"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#2ecc71">
+                                            <path
+                                                d="M86,14.33333c-39.517,0 -71.66667,32.14967 -71.66667,71.66667c0,39.517 32.14967,71.66667 71.66667,71.66667c39.517,0 71.66667,-32.14967 71.66667,-71.66667c0,-39.517 -32.14967,-71.66667 -71.66667,-71.66667zM104.533,86l-11.36633,-11.36633v40.033c0,3.956 -3.21067,7.16667 -7.16667,7.16667v0c-3.956,0 -7.16667,-3.21067 -7.16667,-7.16667v-40.033l-11.36633,11.36633c-2.795,2.795 -7.33867,2.795 -10.13367,0v0c-2.795,-2.795 -2.795,-7.33867 0,-10.13367l23.59983,-23.59983c2.795,-2.795 7.33867,-2.795 10.13367,0l23.59983,23.59983c2.795,2.795 2.795,7.33867 0,10.13367v0c-2.795,2.795 -7.33867,2.795 -10.13367,0z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>303%</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="main-card">
+                            <div class="main-card-top">
+                                <span>Likes</span>
+                                <span><img src="images/facebook.png" alt=""></span>
+                            </div>
+                            <div class="main-card-bottom">
+                                <span>507</span>
+
+                                <span> 
+                                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="12" height="12"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#2ecc71">
+                                            <path
+                                                d="M86,14.33333c-39.517,0 -71.66667,32.14967 -71.66667,71.66667c0,39.517 32.14967,71.66667 71.66667,71.66667c39.517,0 71.66667,-32.14967 71.66667,-71.66667c0,-39.517 -32.14967,-71.66667 -71.66667,-71.66667zM104.533,86l-11.36633,-11.36633v40.033c0,3.956 -3.21067,7.16667 -7.16667,7.16667v0c-3.956,0 -7.16667,-3.21067 -7.16667,-7.16667v-40.033l-11.36633,11.36633c-2.795,2.795 -7.33867,2.795 -10.13367,0v0c-2.795,-2.795 -2.795,-7.33867 0,-10.13367l23.59983,-23.59983c2.795,-2.795 7.33867,-2.795 10.13367,0l23.59983,23.59983c2.795,2.795 2.795,7.33867 0,10.13367v0c-2.795,2.795 -7.33867,2.795 -10.13367,0z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>553%</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="main-card">
+                            <div class="main-card-top">
+                                <span>Likes</span>
+                                <span><img src="images/youtube.png" alt=""></span>
+                            </div>
+                            <div class="main-card-bottom">
+                                <span>107</span>
+
+                                <span> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="12" height="12"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#e74c3c">
+                                            <path
+                                                d="M86,0c-47.50716,0 -86,38.49284 -86,86c0,47.50716 38.49284,86 86,86c47.50716,0 86,-38.49284 86,-86c0,-47.50716 -38.49284,-86 -86,-86zM86,132.58333l-39.41667,-46.58333h25.08333v-43h28.66667v43h25.08333z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>3%</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="main-card">
+                            <div class="main-card-top">
+                                <span>Total vistas</span>
+                                <span><img src="images/facebook.png" alt=""></span>
+                            </div>
+                            <div class="main-card-bottom">
+                                <span>1407</span>
+
+                                <span> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="12" height="12"
+                                    viewBox="0 0 172 172" style=" fill:#000000;">
+                                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
+                                        stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
+                                        stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
+                                        font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                                        <g fill="#e74c3c">
+                                            <path
+                                                d="M86,0c-47.50716,0 -86,38.49284 -86,86c0,47.50716 38.49284,86 86,86c47.50716,0 86,-38.49284 86,-86c0,-47.50716 -38.49284,-86 -86,-86zM86,132.58333l-39.41667,-46.58333h25.08333v-43h28.66667v43h25.08333z">
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>3%</span>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </main>
+
+        </div>
+    </div>
+
+    <div class="attribution">Challenge by <a href="#">Frontend Mentor</a></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
